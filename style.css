@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.head,
+.page6 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+}
+.bv {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  .bv {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .bv {
+    width: auto;
+    height: 100%;
+  }
+}
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 20px 8%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+nav .logo {
+  width: 150px;
+  color: #ffffff;
+  align-self: center;
+}
+.nav-list {
+  background: transparent;
+  background-color: #ffffffe3;
+  padding: 12px 16px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.svg-icon {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  gap: 18px;
+}
+.menu{
+  color: #ffffff;
+  font-size:20px ;
+  text-decoration: none;
+  text-indent: 40px;
+  display: none;
+  
+}
+
+.page1 h1,
+.page2 h1,
+.page3 h1,
+.page4 h1,
+.page5 h1,
+.page6 h1,
+.page7 h1,
+.page8 h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.page  {
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+
+.footer a {
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  padding: 20px 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+a:hover {
+  transition: 500ms;
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 12px 16px;
+}
+.footer p {
+  margin-top: 50px;
+}
+.page2,
+.page3,
+.page4,
+.page5,
+/* .page6, */
+.page7,
+.page8 {
+  color: #000;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px 20px 40px 20px;
+}
+.page2 {
+  background-image: url(./assets/Homepage-Model-Y-Global-Desktop.avif);
+}
+.page3 {
+  background-image: url(./assets/Homepage-Model-S-Desktop-LHD-6.22.avif);
+}
+.page4 {
+  background-image: url(./assets/Homepage-Model-X-Desktop-LHD.avif);
+}
+.page5 {
+  background-image: url(./assets/Homepage-Powerwall-Desktop.avif);
+}
+
+.page7 {
+  background-image: url(./assets/Homepage-SolarRoof-Desktop-Global.avif);
+}
+.page8 {
+  background-image: url(./assets/Homepage-Accessories-Desktop-NA-APAC.avif);
+}
